@@ -1,0 +1,160 @@
+body{
+  font-family: "Open Sans", "Raleway", "Open Work", sans-serif;
+}
+body.home{
+  background-image: url("../img/emilia-home.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1050px 830px;
+}
+body.about{
+    background-image: url("../img/emilia-about.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    background-size: 1000px 630px;
+}
+
+#imgtop{
+  position: relative;
+}
+#maps{
+  position: relative;
+  top:25px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+div.icons{
+  position: absolute;
+  right: 10px;top: 150px;
+
+}
+div.menu{
+  position: absolute;
+  right: 10px; top: 15px;
+  width: 100%;
+}
+
+div.redes-vertical{
+  position: absolute;
+  top: 190px; left: 40px;
+  font-weight: normal;
+}
+
+div.redes{
+  position: absolute;
+  top: 95px; right: 10px;
+  font-weight: normal;
+}
+h1{
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 55px;
+  line-height: 70%;
+  position: relative;
+
+
+}
+h4{
+    text-align: right;
+    font-size: 19px;
+    opacity: 0.8;
+    line-height: 270%;
+    color:black;
+    font-weight: 100;
+    background-color: rgba(255,255,255,0.6);
+    background-size: 100%;
+}
+h1.home{
+  font-family: "Work Sans",sans-serif;
+  font-weight: 100;
+  top: 150px; left: 50px;
+  word-spacing: 8px;
+}
+h4.home{
+  text-align: left;
+  line-height:90%;
+  position: relative;
+  top: 20px; left: 30px;
+  word-spacing: 5px;
+  background-color: rgba(255,255,255,0);
+
+}
+h2.home{
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  font-size: 55px;
+  color:black;
+  position: relative;
+  top: 180px; left: 30px;
+  background-color: rgba(255,255,255,0.5);
+
+}
+
+h1.about{
+  top: 100px; left: 50px;
+  opacity: 0.8;
+}
+h2.about{
+  color: rgb(0,133,111);
+  font-size: 26px;
+  font-weight: 100;
+  position: relative;
+  top: 150px; left: 50px;
+  line-height: 50%;
+}
+h3.about{
+  color: rgb(0,133,111);
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 150px; left: 90px;
+}
+
+
+h1.music{
+  top: 5px;
+}
+h2.music{
+  line-height: 50%;
+  position: relative;
+  top: 10px;
+}
+h3.music{
+  position: relative;
+  left: 80px;
+}
+
+h1.contact{
+  top: 20px; left: 0px;
+}
+h2.contact{
+  font-size: 20px;
+  line-height:90%;
+  position: relative;
+  top: 30px; left: 0px;
+}
+
+h5.contact{
+  font-size: 23px;
+  position: relative;
+  top: 20px;
+}
+h6.contact{
+  line-height: 40%;
+  font-size: 23px;
+  color: rgb(0,133,111);
+  position: relative;
+  top: 10px;
+}
+p.contact{
+  font-size: 15px;
+  line-height: 60%;
+  position: relative;
+  top: 5px;
+}
